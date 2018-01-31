@@ -155,8 +155,8 @@ $sizes: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:       map-get($grays, "lighten-3") !default;
-$body-color:    $white !default;
+$body-bg:       $white !default;
+$body-color:    $gray-900 !default;
 
 // Links
 //

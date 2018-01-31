@@ -8,11 +8,11 @@ import store from './store';
 import DevTools from './containers/DevTools';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './theme/mdbbootstrap/index.css';
+import './theme/css/index.css';
 
 ReactDOM.render(
   <Provider store={store}>
-    <div> {/* A ne pas supprimer si DevTools présent*/}
+    <div>
       <App />
       <DevTools />
     </div>
